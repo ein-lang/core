@@ -1,0 +1,4 @@
+export { string }
+
+string : Number -> String
+string = _ein_number_to_string
