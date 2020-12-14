@@ -1,0 +1,10 @@
+export { join }
+
+join : List String -> String
+join = joinTo ""
+
+joinTo : String -> List String -> String
+joinTo s ss =
+  case ss
+    [] => s
+    [ other, ...ss ] => joinTo (_ein_join_strings s other) ss
