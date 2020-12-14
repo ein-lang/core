@@ -1,4 +1,4 @@
-export { join }
+export { join, slice }
 
 join : List String -> String
 join = joinTo ""
@@ -8,3 +8,6 @@ joinTo s ss =
   case ss
     [] => s
     [ other, ...ss ] => joinTo (_ein_join_strings s other) ss
+
+slice : String -> Number -> Number -> String
+slice = _ein_slice_string
