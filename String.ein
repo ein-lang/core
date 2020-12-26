@@ -1,5 +1,8 @@
 export { join, slice }
 
+foreign _ein_join_strings : String -> String -> String
+foreign _ein_slice_strings : String -> Number -> Number -> String
+
 join : List String -> String
 join = joinTo ""
 

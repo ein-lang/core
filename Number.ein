@@ -1,4 +1,6 @@
 export { string }
 
+foreign _ein_convert_number_to_string : Number -> String
+
 string : Number -> String
-string = _ein_number_to_string
+string = _ein_convert_number_to_string
