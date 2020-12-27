@@ -1,6 +1,8 @@
 #[no_mangle]
 extern "C" fn _ein_convert_number_to_string(number: ffi::Number) -> ffi::EinString {
-    format!("{}", f64::from(number)).into()
+    let mut output = alloc::string::String::new();
+    core::fmt::write(&mut output, format_args!("{}", f64::from(number))).unwrap();
+    output.into()
 }
 
 #[cfg(test)]
