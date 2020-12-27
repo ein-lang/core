@@ -6,7 +6,7 @@ edition = "2018"
 
 [lib]
 name = "prelude"
-crate-type = ["staticlib"]
+crate-type = ["cdylib"]
 
 [dependencies]
 ffi = { package = "ein-ffi", version = "0.1" }
