@@ -9,4 +9,4 @@ name = "prelude"
 crate-type = ["cdylib"]
 
 [dependencies]
-ffi = { package = "ein-ffi", version = "0.1" }
+ffi = { package = "ein-ffi", version = "0.2" }
