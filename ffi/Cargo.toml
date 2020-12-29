@@ -1,11 +1,11 @@
 [package]
-name = "prelude"
+name = "std"
 version = "0.1.0"
 publish = false
 edition = "2018"
 
 [lib]
-name = "prelude"
+name = "std"
 crate-type = ["cdylib"]
 
 [dependencies]
