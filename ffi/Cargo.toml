@@ -5,7 +5,6 @@ publish = false
 edition = "2018"
 
 [lib]
-name = "std"
 crate-type = ["staticlib"]
 
 [dependencies]
