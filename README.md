@@ -1,6 +1,6 @@
 # std
 
-Standard library for Ein programming language
+The standard library for Ein programming language
 
 ## License
 
