@@ -1,7 +1,7 @@
 export { join, slice }
 
-foreign _ein_join_strings : String -> String -> String
-foreign _ein_slice_string : String -> Number -> Number -> String
+import foreign _ein_join_strings : String -> String -> String
+import foreign _ein_slice_string : String -> Number -> Number -> String
 
 join : List String -> String
 join = joinTo ""
