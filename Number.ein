@@ -1,6 +1,6 @@
 export { string }
 
-import foreign _ein_convert_number_to_string : Number -> String
+import foreign "c" _ein_convert_number_to_string : Number -> String
 
 string : Number -> String
 string = _ein_convert_number_to_string
