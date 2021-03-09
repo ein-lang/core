@@ -1,6 +1,6 @@
-# std
+# core
 
-The standard library for Ein programming language
+The core library of [Ein programming language](https://github.com/ein-lang/ein)
 
 ## License
 
