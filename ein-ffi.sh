@@ -4,4 +4,4 @@ set -e
 
 cd ffi
 cargo build --release
-echo ffi/target/release/libstd.a
+echo ffi/target/release/libcore.a
