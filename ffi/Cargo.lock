@@ -9,6 +9,6 @@ dependencies = [
 
 [[package]]
 name = "ein-ffi"
-version = "0.3.2"
+version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f7e660f2bb989a30467fcbb30610fffce3ee2b9a5691aae9d72704913dc5395d"
+checksum = "f80b295c32f5ede9254d53602ec8592d0dd20d6d1b00b36ccc66f6c3b4f80481"
